@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NBA News</title>
+        <link rel="icon" href="images/nba-logo.jpg">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+	   <script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+    </head>
+    
+    <body>
+        <header>
+            <a href="index.html"><img src="images/nba-logo.jpg" alt="NBA logo"></a>
+            <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/news.html">News</a></li>
+                <li><a href="html/scores.html">Scores</a></li>
+                <li><a href="html/schedule.html">Schedule</a></li>
+                <li><a href="html/standings.html">Standings</a></li>
+                <li><a href="html/info.html">Info</a>
+                    <ul>
+                        <li><a href="html/aboutUs.html">About Us</a></li>
+                        <li><a href="html/contact.html">Contact</a></li>
+                    </ul>
+                </li>
+                <li id="sign"><a href="html/login.html">Sign in/Register</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+        <div class="row">
+            <div class="column side">
+            <img src="images/side%20ad.png">
+        </div>
+            <div class="column middle">
+            <section id="mainArticle">
+            <a href="html/luka.html"><img src="images/luka.jpg">
+                <h4>Luka Doncic returns with near triple-double as Dallas Mavericks fend off LA Clippers to win in OT</h4></a>
+            </section>
+            <scetion id="newsTable">
+                <table>
+                    <tr>
+                <td><img src="images/giannis.jpg"></td>
+                <td><img src="images/san%20antonio.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><h5>Giannis Hints at Future Milwaukee Exit: 'Next Challenge Might Not Be Here'</h5></td>
+                        <td><h5>The Good, Bad and Ugly of the Spurs’ first 15 games</h5></td>
+                    </tr>
+                </table>
+            </scetion>
+            </div>
+        <div class="column side">
+            <img src="images/side%20ad.png">
+            </div>
+        </div>
+        </main>
+        <footer>
+            <p>&copy; NBA</p>
+    </footer>
+    </body>
+</html>
